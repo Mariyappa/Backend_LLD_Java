@@ -1,4 +1,4 @@
-package day2.LibraryManagementSystem.Users;
+package day2.LibraryManagementSystem.Users1;
 
 
 public abstract class User{
@@ -23,7 +23,7 @@ public abstract class User{
         this.contactInfo = contactInfo;
     }
 
-    private static final String generateUniqueId(){
+    private final String generateUniqueId(){
         return "User-"+getTotalUsers();
     }
     private static int getTotalUsers(){

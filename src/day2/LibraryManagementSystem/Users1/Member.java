@@ -7,6 +7,7 @@ class Member extends User{
 
     public void displayDashBoard(){
         System.out.println("Member : Display DashBoard");
+        System.out.println("Name: "+getName());
     }
 
     public boolean canBorrowBooks(){
