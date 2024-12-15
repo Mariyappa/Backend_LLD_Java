@@ -8,7 +8,7 @@ public abstract class User{
     private static int totalUsers = 0;
 
     public User(){
-        this.userId = generateUniqueId;
+        this.userId = generateUniqueId();
     }
 
     public User(User other){
@@ -23,7 +23,7 @@ public abstract class User{
         this.contactInfo = contactInfo;
     }
 
-    private final String generateUniqueId(){
+    private static final String generateUniqueId(){
         return "User-"+getTotalUsers();
     }
     private static int getTotalUsers(){

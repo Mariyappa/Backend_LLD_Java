@@ -1,4 +1,6 @@
-package day2.LibraryManagementSystem.Users;
+package day2.LibraryManagementSystem.Users1;
+
+import day2.LibraryManagementSystem.Books.Book;
 
 class Librarian extends User{
     private String employeeNumber;
